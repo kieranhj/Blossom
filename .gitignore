@@ -1,7 +1,16 @@
 /.vs
+/.claude
 /blossom/out.html
 /blossom/Debug/
 /blossom/Release/
+/blossom/Capture/
 /Debug/
 /Release/
+/Capture/
 *.vcxproj.user
+
+# capture output (e.g. 1780861842_960x540_32spp.png)
+*spp.png
+*spp.jpg
+*spp.u8.bin
+*spp.f32.bin

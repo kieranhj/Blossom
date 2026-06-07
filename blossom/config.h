@@ -43,12 +43,20 @@
 	#endif
 #endif
 
+// fast iteration: low-res, low-sample capture for quick previews
+#define CAPTURE_PREVIEW 0
+
 #if CAPTURE
 	#define WINDOW_AUTO_SIZE 0
+#if CAPTURE_PREVIEW
+	#define CANVAS_WIDTH 960
+	#define CANVAS_HEIGHT 540
+	#define RENDER_EXACT_SAMPLES 32
+#else
 	#define CANVAS_WIDTH 3840
 	#define CANVAS_HEIGHT 2160
-
 	#define RENDER_EXACT_SAMPLES 1024
+#endif
 
 	// which formats to save
 	#define CAPTURE_SAVE_PNG 1
