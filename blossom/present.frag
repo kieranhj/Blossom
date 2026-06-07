@@ -1,7 +1,6 @@
 /* framework header */
 #version 430
 layout(location = 0) out vec4 fragColor;
-layout(location = 0) uniform vec4 iResolution;
 layout(binding = 0) uniform sampler2D accumulatorTex;
 
 

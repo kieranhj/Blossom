@@ -67,7 +67,8 @@ MessageCallback(GLenum source,
 		(type == GL_DEBUG_TYPE_ERROR ? "** GL ERROR **" : ""),
 		type, severity, message);
 
-	__debugbreak();
+	if (type == GL_DEBUG_TYPE_ERROR || severity == GL_DEBUG_SEVERITY_HIGH)
+		__debugbreak();
 }
 #endif
 
@@ -163,7 +164,6 @@ static inline void presentSetup(int destFb)
 
 	glBlendFunc(GL_ONE, GL_ZERO);
 
-	bindSharedUniforms();
 	glBindTexture(GL_TEXTURE_2D, fbAccumulator);
 }
 
