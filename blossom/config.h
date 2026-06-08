@@ -53,9 +53,9 @@
 	#define CANVAS_HEIGHT 540
 	#define RENDER_EXACT_SAMPLES 32
 #else
-	#define CANVAS_WIDTH 3840
-	#define CANVAS_HEIGHT 2160
-	#define RENDER_EXACT_SAMPLES 1024
+	#define CANVAS_WIDTH 1920
+	#define CANVAS_HEIGHT 1080
+	#define RENDER_EXACT_SAMPLES 256
 #endif
 
 	// which formats to save
