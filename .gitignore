@@ -14,3 +14,7 @@
 *spp.jpg
 *spp.u8.bin
 *spp.f32.bin
+
+# stipple tool
+tools/__pycache__/
+stipple_out/
