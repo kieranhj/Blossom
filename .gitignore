@@ -8,6 +8,7 @@
 /Release/
 /Capture/
 *.vcxproj.user
+/refs/
 
 # capture output (e.g. 1780861842_960x540_32spp.png)
 *spp.png
