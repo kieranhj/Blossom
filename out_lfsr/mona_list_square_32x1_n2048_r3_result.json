@@ -1,0 +1,14 @@
+{
+  "image": "pics/mona_list_square.png",
+  "mode": "32x1",
+  "n_iters": 2048,
+  "fixed_r": 3,
+  "best_x": 15037,
+  "best_y": 7905,
+  "best_mse": 0.1435342658753123,
+  "r2_mse": 0.1480829669933327,
+  "n_random": 300000,
+  "n_refine_passes": 5,
+  "refine_improvements": 2,
+  "elapsed_s": 64.53623914718628
+}

@@ -1,0 +1,457 @@
+building LFSR cycle (tap 0xB400)...
+
+=== mona_list_square | mode 16x2 | iters 1024 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.111677  (10203/s)
+      60000/300000  best MSE 0.111525  (12059/s)
+      90000/300000  best MSE 0.111525  (12811/s)
+     120000/300000  best MSE 0.111525  (13227/s)
+     150000/300000  best MSE 0.111525  (13509/s)
+     180000/300000  best MSE 0.111119  (13725/s)
+     210000/300000  best MSE 0.110859  (13750/s)
+     240000/300000  best MSE 0.110859  (13496/s)
+     270000/300000  best MSE 0.110859  (13247/s)
+     300000/300000  best MSE 0.110859  (13146/s)
+  random done: best MSE 0.110859  elapsed 22.8s
+  refining top-1 (start MSE 0.110859, x=34960, y=4858)
+    pass 1: MSE 0.109627  (x=34960, y=14452)  10.5s
+    pass 2: MSE 0.109627  (x=34960, y=14452)  9.6s
+  new global best: MSE 0.109627  (x=34960, y=14452)
+  refining top-2 (start MSE 0.111102, x=6367, y=47750)
+    pass 3: MSE 0.111102  (x=6367, y=47750)  10.4s
+  refining top-3 (start MSE 0.111119, x=35256, y=38537)
+    pass 4: MSE 0.111086  (x=8003, y=38537)  11.3s
+    pass 5: MSE 0.111086  (x=8003, y=38537)  10.6s
+  R2 baseline MSE: 0.073071
+  elapsed 75.2s  best MSE 0.109627 vs R2 0.073071  (-50.0%)
+
+=== mona_list_square | mode 16x2 | iters 2048 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.090900  (6740/s)
+      60000/300000  best MSE 0.088925  (6640/s)
+      90000/300000  best MSE 0.088925  (6418/s)
+     120000/300000  best MSE 0.088925  (6101/s)
+     150000/300000  best MSE 0.086661  (6074/s)
+     180000/300000  best MSE 0.086661  (6126/s)
+     210000/300000  best MSE 0.086661  (6146/s)
+     240000/300000  best MSE 0.086661  (6191/s)
+     270000/300000  best MSE 0.086661  (6057/s)
+     300000/300000  best MSE 0.086661  (5998/s)
+  random done: best MSE 0.086661  elapsed 50.0s
+  refining top-1 (start MSE 0.086661, x=4087, y=4098)
+    pass 1: MSE 0.086661  (x=4087, y=4098)  25.2s
+  refining top-2 (start MSE 0.087372, x=34187, y=34175)
+    pass 2: MSE 0.084326  (x=34164, y=34175)  20.5s
+    pass 3: MSE 0.084326  (x=34164, y=34175)  22.1s
+  new global best: MSE 0.084326  (x=34164, y=34175)
+  refining top-3 (start MSE 0.088179, x=60433, y=60421)
+    pass 4: MSE 0.086491  (x=60410, y=60421)  23.9s
+    pass 5: MSE 0.086491  (x=60410, y=60421)  23.2s
+  R2 baseline MSE: 0.081952
+  elapsed 165.0s  best MSE 0.084326 vs R2 0.081952  (-2.9%)
+
+=== mona_list_square | mode 32x1 | iters 1024 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.226184  (15281/s)
+      60000/300000  best MSE 0.226184  (18895/s)
+      90000/300000  best MSE 0.225091  (20985/s)
+     120000/300000  best MSE 0.223242  (22185/s)
+     150000/300000  best MSE 0.223242  (23077/s)
+     180000/300000  best MSE 0.223242  (23207/s)
+     210000/300000  best MSE 0.223242  (23476/s)
+     240000/300000  best MSE 0.223242  (23819/s)
+     270000/300000  best MSE 0.223242  (24118/s)
+     300000/300000  best MSE 0.223242  (24289/s)
+  random done: best MSE 0.223242  elapsed 12.4s
+  refining top-1 (start MSE 0.223242, x=7726, y=52834)
+    pass 1: MSE 0.223242  (x=7726, y=52834)  6.0s
+  refining top-2 (start MSE 0.224596, x=25626, y=1440)
+    pass 2: MSE 0.224596  (x=25626, y=1440)  5.0s
+  refining top-3 (start MSE 0.225091, x=6176, y=10126)
+    pass 3: MSE 0.223878  (x=39218, y=10126)  5.6s
+    pass 4: MSE 0.223878  (x=39218, y=10126)  5.3s
+  R2 baseline MSE: 0.197379
+  elapsed 34.3s  best MSE 0.223242 vs R2 0.197379  (-13.1%)
+
+=== mona_list_square | mode 32x1 | iters 1024 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.167855  (16589/s)
+      60000/300000  best MSE 0.167855  (15837/s)
+      90000/300000  best MSE 0.167855  (15953/s)
+     120000/300000  best MSE 0.167855  (15813/s)
+     150000/300000  best MSE 0.167855  (16009/s)
+     180000/300000  best MSE 0.167855  (16335/s)
+     210000/300000  best MSE 0.167855  (16485/s)
+     240000/300000  best MSE 0.167802  (16456/s)
+     270000/300000  best MSE 0.160763  (16665/s)
+     300000/300000  best MSE 0.160763  (16936/s)
+  random done: best MSE 0.160763  elapsed 17.7s
+  refining top-1 (start MSE 0.160763, x=19089, y=24999)
+    pass 1: MSE 0.160763  (x=19089, y=24999)  7.9s
+  refining top-2 (start MSE 0.163537, x=37395, y=2431)
+    pass 2: MSE 0.163537  (x=37395, y=2431)  7.1s
+  refining top-3 (start MSE 0.167494, x=58610, y=31688)
+    pass 3: MSE 0.167494  (x=58610, y=31688)  7.1s
+  R2 baseline MSE: 0.125136
+  elapsed 39.9s  best MSE 0.160763 vs R2 0.125136  (-28.5%)
+
+=== mona_list_square | mode 32x1 | iters 2048 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.145369  (12988/s)
+      60000/300000  best MSE 0.145369  (13855/s)
+      90000/300000  best MSE 0.145369  (14210/s)
+     120000/300000  best MSE 0.145369  (14473/s)
+     150000/300000  best MSE 0.145369  (14776/s)
+     180000/300000  best MSE 0.145295  (14875/s)
+     210000/300000  best MSE 0.145295  (14812/s)
+     240000/300000  best MSE 0.145295  (14722/s)
+     270000/300000  best MSE 0.145295  (14688/s)
+     300000/300000  best MSE 0.145295  (14672/s)
+  random done: best MSE 0.145295  elapsed 20.4s
+  refining top-1 (start MSE 0.145295, x=3454, y=21885)
+    pass 1: MSE 0.144536  (x=5013, y=21885)  8.5s
+    pass 2: MSE 0.144536  (x=5013, y=21885)  8.7s
+  new global best: MSE 0.144536  (x=5013, y=21885)
+  refining top-2 (start MSE 0.145369, x=52639, y=58366)
+    pass 3: MSE 0.145369  (x=52639, y=58366)  9.7s
+  refining top-3 (start MSE 0.145428, x=34838, y=7905)
+    pass 4: MSE 0.143534  (x=15037, y=7905)  8.5s
+    pass 5: MSE 0.143534  (x=15037, y=7905)  8.6s
+  new global best: MSE 0.143534  (x=15037, y=7905)
+  R2 baseline MSE: 0.148083
+  elapsed 64.5s  best MSE 0.143534 vs R2 0.148083  (+3.1%)
+
+=== mona_list_square | mode 32x1 | iters 2048 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.118612  (9428/s)
+      60000/300000  best MSE 0.117106  (7752/s)
+      90000/300000  best MSE 0.117106  (7243/s)
+     120000/300000  best MSE 0.117106  (7289/s)
+     150000/300000  best MSE 0.117106  (7009/s)
+     180000/300000  best MSE 0.117106  (6966/s)
+     210000/300000  best MSE 0.117106  (6733/s)
+     240000/300000  best MSE 0.117106  (6594/s)
+     270000/300000  best MSE 0.117106  (6487/s)
+     300000/300000  best MSE 0.117106  (6473/s)
+  random done: best MSE 0.117106  elapsed 46.3s
+  refining top-1 (start MSE 0.117106, x=6156, y=50773)
+    pass 1: MSE 0.116762  (x=28893, y=50773)  20.0s
+    pass 2: MSE 0.116762  (x=28893, y=50773)  18.5s
+  new global best: MSE 0.116762  (x=28893, y=50773)
+  refining top-2 (start MSE 0.117479, x=50843, y=50996)
+    pass 3: MSE 0.117453  (x=32036, y=50996)  20.1s
+    pass 4: MSE 0.117453  (x=32036, y=50996)  20.6s
+  refining top-3 (start MSE 0.117941, x=50668, y=42838)
+    pass 5: MSE 0.115478  (x=50668, y=2575)  20.3s
+    pass 6: MSE 0.115478  (x=50668, y=2575)  18.5s
+  new global best: MSE 0.115478  (x=50668, y=2575)
+  R2 baseline MSE: 0.113671
+  elapsed 164.3s  best MSE 0.115478 vs R2 0.113671  (-1.6%)
+
+=== face | mode 16x2 | iters 1024 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.076723  (4459/s)
+      60000/300000  best MSE 0.076723  (5412/s)
+      90000/300000  best MSE 0.076723  (5479/s)
+     120000/300000  best MSE 0.076289  (5363/s)
+     150000/300000  best MSE 0.076289  (5495/s)
+     180000/300000  best MSE 0.076289  (5687/s)
+     210000/300000  best MSE 0.074086  (5759/s)
+     240000/300000  best MSE 0.074086  (5813/s)
+     270000/300000  best MSE 0.074086  (5800/s)
+     300000/300000  best MSE 0.074086  (5752/s)
+  random done: best MSE 0.074086  elapsed 52.2s
+  refining top-1 (start MSE 0.074086, x=16655, y=65497)
+    pass 1: MSE 0.074086  (x=16655, y=65497)  21.4s
+  refining top-2 (start MSE 0.074361, x=35604, y=28802)
+    pass 2: MSE 0.074361  (x=35604, y=28802)  21.2s
+  refining top-3 (start MSE 0.076289, x=59486, y=12005)
+    pass 3: MSE 0.074808  (x=56904, y=14790)  20.8s
+    pass 4: MSE 0.074808  (x=56904, y=14790)  23.0s
+  R2 baseline MSE: 0.041772
+  elapsed 138.7s  best MSE 0.074086 vs R2 0.041772  (-77.4%)
+
+=== face | mode 16x2 | iters 2048 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.050468  (2467/s)
+      60000/300000  best MSE 0.050468  (2545/s)
+      90000/300000  best MSE 0.049067  (2742/s)
+     120000/300000  best MSE 0.049067  (2790/s)
+     150000/300000  best MSE 0.049067  (2754/s)
+     180000/300000  best MSE 0.049067  (2846/s)
+     210000/300000  best MSE 0.049067  (2910/s)
+     240000/300000  best MSE 0.049067  (2955/s)
+     270000/300000  best MSE 0.049067  (2970/s)
+     300000/300000  best MSE 0.049067  (2981/s)
+  random done: best MSE 0.049067  elapsed 100.6s
+  refining top-1 (start MSE 0.049067, x=6589, y=65407)
+    pass 1: MSE 0.048966  (x=6589, y=24690)  43.0s
+    pass 2: MSE 0.048966  (x=6589, y=24690)  41.6s
+  new global best: MSE 0.048966  (x=6589, y=24690)
+  refining top-2 (start MSE 0.050290, x=38586, y=49150)
+    pass 3: MSE 0.049272  (x=38586, y=3179)  39.6s
+    pass 4: MSE 0.049272  (x=38586, y=3179)  40.3s
+  refining top-3 (start MSE 0.050451, x=27252, y=61730)
+    pass 5: MSE 0.049783  (x=17695, y=61730)  39.9s
+    pass 6: MSE 0.049783  (x=17695, y=61730)  42.2s
+  R2 baseline MSE: 0.047017
+  elapsed 347.3s  best MSE 0.048966 vs R2 0.047017  (-4.1%)
+
+=== face | mode 32x1 | iters 1024 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.298059  (16893/s)
+      60000/300000  best MSE 0.294682  (16519/s)
+      90000/300000  best MSE 0.294682  (16022/s)
+     120000/300000  best MSE 0.294682  (15828/s)
+     150000/300000  best MSE 0.294150  (15734/s)
+     180000/300000  best MSE 0.294150  (15833/s)
+     210000/300000  best MSE 0.294150  (15859/s)
+     240000/300000  best MSE 0.294150  (15445/s)
+     270000/300000  best MSE 0.294150  (15510/s)
+     300000/300000  best MSE 0.294150  (15459/s)
+  random done: best MSE 0.294150  elapsed 19.4s
+  refining top-1 (start MSE 0.294150, x=56539, y=26900)
+    pass 1: MSE 0.292628  (x=26703, y=26900)  8.1s
+    pass 2: MSE 0.292628  (x=26703, y=26900)  7.1s
+  new global best: MSE 0.292628  (x=26703, y=26900)
+  refining top-2 (start MSE 0.294682, x=59614, y=61665)
+    pass 3: MSE 0.290960  (x=57104, y=61665)  7.0s
+    pass 4: MSE 0.290960  (x=57104, y=61665)  7.6s
+  new global best: MSE 0.290960  (x=57104, y=61665)
+  refining top-3 (start MSE 0.295354, x=1873, y=53108)
+    pass 5: MSE 0.292757  (x=52296, y=53108)  7.8s
+    pass 6: MSE 0.292757  (x=52296, y=53108)  7.5s
+  R2 baseline MSE: 0.239492
+  elapsed 64.5s  best MSE 0.290960 vs R2 0.239492  (-21.5%)
+
+=== face | mode 32x1 | iters 1024 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.179015  (10892/s)
+      60000/300000  best MSE 0.178169  (10243/s)
+      90000/300000  best MSE 0.175761  (10350/s)
+     120000/300000  best MSE 0.175761  (10358/s)
+     150000/300000  best MSE 0.174924  (10422/s)
+     180000/300000  best MSE 0.174924  (10512/s)
+     210000/300000  best MSE 0.174924  (10576/s)
+     240000/300000  best MSE 0.174924  (10575/s)
+     270000/300000  best MSE 0.174924  (10595/s)
+     300000/300000  best MSE 0.174924  (10554/s)
+  random done: best MSE 0.174924  elapsed 28.4s
+  refining top-1 (start MSE 0.174924, x=57009, y=9492)
+    pass 1: MSE 0.173276  (x=57009, y=61621)  12.5s
+    pass 2: MSE 0.173276  (x=57009, y=61621)  12.4s
+  new global best: MSE 0.173276  (x=57009, y=61621)
+  refining top-2 (start MSE 0.175761, x=29194, y=25369)
+    pass 3: MSE 0.175529  (x=31122, y=25369)  12.3s
+    pass 4: MSE 0.175529  (x=31122, y=25369)  11.9s
+  refining top-3 (start MSE 0.175867, x=58060, y=14532)
+    pass 5: MSE 0.172488  (x=56646, y=58318)  12.9s
+    pass 6: MSE 0.172488  (x=56646, y=58318)  12.5s
+  new global best: MSE 0.172488  (x=56646, y=58318)
+  R2 baseline MSE: 0.092546
+  elapsed 103.0s  best MSE 0.172488 vs R2 0.092546  (-86.4%)
+
+=== face | mode 32x1 | iters 2048 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.149813  (9741/s)
+      60000/300000  best MSE 0.149205  (8520/s)
+      90000/300000  best MSE 0.148143  (9422/s)
+     120000/300000  best MSE 0.148143  (9541/s)
+     150000/300000  best MSE 0.148143  (9542/s)
+     180000/300000  best MSE 0.148143  (9500/s)
+     210000/300000  best MSE 0.148143  (9508/s)
+     240000/300000  best MSE 0.148143  (9313/s)
+     270000/300000  best MSE 0.148143  (9112/s)
+     300000/300000  best MSE 0.148143  (8963/s)
+  random done: best MSE 0.148143  elapsed 33.5s
+  refining top-1 (start MSE 0.148143, x=24982, y=52562)
+    pass 1: MSE 0.147160  (x=24982, y=57124)  16.7s
+    pass 2: MSE 0.147160  (x=24982, y=57124)  14.0s
+  new global best: MSE 0.147160  (x=24982, y=57124)
+  refining top-2 (start MSE 0.148754, x=56384, y=52578)
+    pass 3: MSE 0.147189  (x=24998, y=57140)  13.1s
+    pass 4: MSE 0.146875  (x=61417, y=57140)  15.0s
+    pass 5: MSE 0.146875  (x=61417, y=57140)  13.5s
+  new global best: MSE 0.146875  (x=61417, y=57140)
+  refining top-3 (start MSE 0.148910, x=13436, y=1311)
+    pass 6: MSE 0.143719  (x=42113, y=1311)  13.6s
+    pass 7: MSE 0.143719  (x=42113, y=1311)  15.4s
+  new global best: MSE 0.143719  (x=42113, y=1311)
+  R2 baseline MSE: 0.154945
+  elapsed 134.8s  best MSE 0.143719 vs R2 0.154945  (+7.2%)
+
+=== face | mode 32x1 | iters 2048 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.077790  (4726/s)
+      60000/300000  best MSE 0.077790  (5286/s)
+      90000/300000  best MSE 0.077790  (5310/s)
+     120000/300000  best MSE 0.077790  (5357/s)
+     150000/300000  best MSE 0.073973  (5500/s)
+     180000/300000  best MSE 0.073973  (5523/s)
+     210000/300000  best MSE 0.073973  (5444/s)
+     240000/300000  best MSE 0.073973  (5530/s)
+     270000/300000  best MSE 0.073973  (5599/s)
+     300000/300000  best MSE 0.073973  (5654/s)
+  random done: best MSE 0.073973  elapsed 53.1s
+  refining top-1 (start MSE 0.073973, x=58448, y=41581)
+    pass 1: MSE 0.073973  (x=58448, y=41581)  20.5s
+  refining top-2 (start MSE 0.076617, x=44460, y=52729)
+    pass 2: MSE 0.076617  (x=44460, y=52729)  20.9s
+  refining top-3 (start MSE 0.077790, x=15346, y=58043)
+    pass 3: MSE 0.076369  (x=40526, y=61287)  21.4s
+    pass 4: MSE 0.076369  (x=40526, y=61287)  22.1s
+  R2 baseline MSE: 0.061204
+  elapsed 138.0s  best MSE 0.073973 vs R2 0.061204  (-20.9%)
+
+=== eye | mode 16x2 | iters 1024 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.098293  (6835/s)
+      60000/300000  best MSE 0.098293  (6898/s)
+      90000/300000  best MSE 0.097998  (6763/s)
+     120000/300000  best MSE 0.097998  (6662/s)
+     150000/300000  best MSE 0.097998  (6838/s)
+     180000/300000  best MSE 0.097998  (6640/s)
+     210000/300000  best MSE 0.097980  (6608/s)
+     240000/300000  best MSE 0.097980  (6535/s)
+     270000/300000  best MSE 0.097980  (6523/s)
+     300000/300000  best MSE 0.097980  (6468/s)
+  random done: best MSE 0.097980  elapsed 46.4s
+  refining top-1 (start MSE 0.097980, x=13118, y=30474)
+    pass 1: MSE 0.097812  (x=13118, y=31048)  18.8s
+    pass 2: MSE 0.097812  (x=13118, y=31048)  16.8s
+  new global best: MSE 0.097812  (x=13118, y=31048)
+  refining top-2 (start MSE 0.097998, x=27578, y=21049)
+    pass 3: MSE 0.097998  (x=27578, y=21049)  19.0s
+  refining top-3 (start MSE 0.098164, x=13041, y=30578)
+    pass 4: MSE 0.097387  (x=52782, y=30578)  19.9s
+    pass 5: MSE 0.097387  (x=52782, y=30578)  19.3s
+  new global best: MSE 0.097387  (x=52782, y=30578)
+  R2 baseline MSE: 0.063731
+  elapsed 140.3s  best MSE 0.097387 vs R2 0.063731  (-52.8%)
+
+=== eye | mode 16x2 | iters 2048 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.076339  (2996/s)
+      60000/300000  best MSE 0.076339  (3495/s)
+      90000/300000  best MSE 0.075969  (3389/s)
+     120000/300000  best MSE 0.075969  (3398/s)
+     150000/300000  best MSE 0.075969  (3389/s)
+     180000/300000  best MSE 0.075969  (3411/s)
+     210000/300000  best MSE 0.075969  (3485/s)
+     240000/300000  best MSE 0.075969  (3504/s)
+     270000/300000  best MSE 0.075969  (3512/s)
+     300000/300000  best MSE 0.075969  (3520/s)
+  random done: best MSE 0.075969  elapsed 85.2s
+  refining top-1 (start MSE 0.075969, x=58372, y=12530)
+    pass 1: MSE 0.075969  (x=58372, y=12530)  37.9s
+  refining top-2 (start MSE 0.076339, x=65036, y=19194)
+    pass 2: MSE 0.076048  (x=65036, y=45343)  35.4s
+    pass 3: MSE 0.076048  (x=65036, y=45343)  33.4s
+  refining top-3 (start MSE 0.076590, x=34011, y=34000)
+    pass 4: MSE 0.076590  (x=34011, y=34000)  25.9s
+  R2 baseline MSE: 0.076289
+  elapsed 217.9s  best MSE 0.075969 vs R2 0.076289  (+0.4%)
+
+=== eye | mode 32x1 | iters 1024 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.254026  (23736/s)
+      60000/300000  best MSE 0.252517  (24786/s)
+      90000/300000  best MSE 0.252517  (25686/s)
+     120000/300000  best MSE 0.252229  (26053/s)
+     150000/300000  best MSE 0.252229  (25960/s)
+     180000/300000  best MSE 0.252229  (25965/s)
+     210000/300000  best MSE 0.247442  (25659/s)
+     240000/300000  best MSE 0.247442  (25581/s)
+     270000/300000  best MSE 0.247442  (25664/s)
+     300000/300000  best MSE 0.247442  (25794/s)
+  random done: best MSE 0.247442  elapsed 11.6s
+  refining top-1 (start MSE 0.247442, x=33283, y=42922)
+    pass 1: MSE 0.247442  (x=33283, y=42922)  4.8s
+  refining top-2 (start MSE 0.249516, x=11571, y=34870)
+    pass 2: MSE 0.249515  (x=56930, y=34870)  7.4s
+    pass 3: MSE 0.249515  (x=56930, y=34870)  7.5s
+  refining top-3 (start MSE 0.250633, x=51892, y=17891)
+    pass 4: MSE 0.250633  (x=51892, y=17891)  8.8s
+  R2 baseline MSE: 0.208710
+  elapsed 40.2s  best MSE 0.247442 vs R2 0.208710  (-18.6%)
+
+=== eye | mode 32x1 | iters 1024 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.166930  (11923/s)
+      60000/300000  best MSE 0.166276  (11053/s)
+      90000/300000  best MSE 0.166276  (11416/s)
+     120000/300000  best MSE 0.165843  (11417/s)
+     150000/300000  best MSE 0.165160  (11849/s)
+     180000/300000  best MSE 0.165160  (11739/s)
+     210000/300000  best MSE 0.165160  (11415/s)
+     240000/300000  best MSE 0.163401  (11149/s)
+     270000/300000  best MSE 0.163337  (10684/s)
+     300000/300000  best MSE 0.163337  (10868/s)
+  random done: best MSE 0.163337  elapsed 27.6s
+  refining top-1 (start MSE 0.163337, x=36236, y=17478)
+    pass 1: MSE 0.161728  (x=36236, y=20061)  12.3s
+    pass 2: MSE 0.161728  (x=36236, y=20061)  11.2s
+  new global best: MSE 0.161728  (x=36236, y=20061)
+  refining top-2 (start MSE 0.163401, x=29066, y=63218)
+    pass 3: MSE 0.163401  (x=29066, y=63218)  10.5s
+  refining top-3 (start MSE 0.165160, x=33881, y=18570)
+    pass 4: MSE 0.165160  (x=33881, y=18570)  10.6s
+  R2 baseline MSE: 0.100758
+  elapsed 72.2s  best MSE 0.161728 vs R2 0.100758  (-60.5%)
+
+=== eye | mode 32x1 | iters 2048 r=3 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.143024  (9510/s)
+      60000/300000  best MSE 0.143024  (10068/s)
+      90000/300000  best MSE 0.143024  (9690/s)
+     120000/300000  best MSE 0.140788  (9437/s)
+     150000/300000  best MSE 0.140788  (9380/s)
+     180000/300000  best MSE 0.140788  (9286/s)
+     210000/300000  best MSE 0.140788  (9421/s)
+     240000/300000  best MSE 0.140788  (9505/s)
+     270000/300000  best MSE 0.140788  (9359/s)
+     300000/300000  best MSE 0.140788  (9487/s)
+  random done: best MSE 0.140788  elapsed 31.6s
+  refining top-1 (start MSE 0.140788, x=52029, y=33933)
+    pass 1: MSE 0.140633  (x=52029, y=33295)  13.6s
+    pass 2: MSE 0.140633  (x=52029, y=33295)  13.6s
+  new global best: MSE 0.140633  (x=52029, y=33295)
+  refining top-2 (start MSE 0.142234, x=224, y=9902)
+    pass 3: MSE 0.140360  (x=52690, y=9902)  13.1s
+    pass 4: MSE 0.140360  (x=52690, y=9902)  12.6s
+  new global best: MSE 0.140360  (x=52690, y=9902)
+  refining top-3 (start MSE 0.142256, x=31076, y=51094)
+    pass 5: MSE 0.138048  (x=19958, y=51094)  13.5s
+    pass 6: MSE 0.138048  (x=19958, y=51094)  14.0s
+  new global best: MSE 0.138048  (x=19958, y=51094)
+  R2 baseline MSE: 0.143008
+  elapsed 112.2s  best MSE 0.138048 vs R2 0.143008  (+3.5%)
+
+=== eye | mode 32x1 | iters 2048 r=4 ===
+  random search: 300000 candidates
+      30000/300000  best MSE 0.094358  (5593/s)
+      60000/300000  best MSE 0.094358  (5464/s)
+      90000/300000  best MSE 0.093894  (5818/s)
+     120000/300000  best MSE 0.093119  (5913/s)
+     150000/300000  best MSE 0.093119  (5859/s)
+     180000/300000  best MSE 0.093119  (5737/s)
+     210000/300000  best MSE 0.093119  (5737/s)
+     240000/300000  best MSE 0.093119  (5706/s)
+     270000/300000  best MSE 0.093119  (5689/s)
+     300000/300000  best MSE 0.093119  (5791/s)
+  random done: best MSE 0.093119  elapsed 51.8s
+  refining top-1 (start MSE 0.093119, x=15780, y=8512)
+    pass 1: MSE 0.093119  (x=15780, y=8512)  20.1s
+  refining top-2 (start MSE 0.093126, x=35437, y=63038)
+    pass 2: MSE 0.092041  (x=6314, y=41271)  19.9s
+    pass 3: MSE 0.092041  (x=6314, y=41271)  21.9s
+  new global best: MSE 0.092041  (x=6314, y=41271)
+  refining top-3 (start MSE 0.093216, x=8680, y=6550)
+    pass 4: MSE 0.092740  (x=8680, y=29558)  22.5s
+    pass 5: MSE 0.090265  (x=35732, y=29558)  19.8s
+    pass 6: MSE 0.090265  (x=35732, y=29558)  19.1s
+  new global best: MSE 0.090265  (x=35732, y=29558)
+  R2 baseline MSE: 0.082197
+  elapsed 175.2s  best MSE 0.090265 vs R2 0.082197  (-9.8%)
+
+all done. results -> out_lfsr

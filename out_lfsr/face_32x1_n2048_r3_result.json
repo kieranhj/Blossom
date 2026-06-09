@@ -1,0 +1,14 @@
+{
+  "image": "pics/face.png",
+  "mode": "32x1",
+  "n_iters": 2048,
+  "fixed_r": 3,
+  "best_x": 42113,
+  "best_y": 1311,
+  "best_mse": 0.14371884564169066,
+  "r2_mse": 0.15494511074490025,
+  "n_random": 300000,
+  "n_refine_passes": 7,
+  "refine_improvements": 4,
+  "elapsed_s": 134.82466745376587
+}

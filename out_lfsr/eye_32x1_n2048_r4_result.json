@@ -1,0 +1,14 @@
+{
+  "image": "pics/eye.png",
+  "mode": "32x1",
+  "n_iters": 2048,
+  "fixed_r": 4,
+  "best_x": 35732,
+  "best_y": 29558,
+  "best_mse": 0.09026479145418184,
+  "r2_mse": 0.08219682267426259,
+  "n_random": 300000,
+  "n_refine_passes": 6,
+  "refine_improvements": 3,
+  "elapsed_s": 175.17837810516357
+}
