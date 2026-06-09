@@ -18,3 +18,8 @@
 # stipple tool
 tools/__pycache__/
 stipple_out/
+tools/beebasm.exe
+
+# external reference material (non-public)
+/refs/
+/.vscode/
